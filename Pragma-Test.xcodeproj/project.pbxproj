@@ -13,6 +13,10 @@
 		26D6B5602A2BCA7300724282 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 26D6B55E2A2BCA7300724282 /* Main.storyboard */; };
 		26D6B5622A2BCA7400724282 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 26D6B5612A2BCA7400724282 /* Assets.xcassets */; };
 		26D6B5652A2BCA7400724282 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 26D6B5632A2BCA7400724282 /* LaunchScreen.storyboard */; };
+		26D6B5722A2BCADD00724282 /* CeldaGatoViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 26D6B56E2A2BCADD00724282 /* CeldaGatoViewCell.xib */; };
+		26D6B5732A2BCADD00724282 /* CeldaGatoViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26D6B56F2A2BCADD00724282 /* CeldaGatoViewCell.swift */; };
+		26D6B5742A2BCADD00724282 /* CatManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26D6B5702A2BCADD00724282 /* CatManager.swift */; };
+		26D6B5752A2BCADD00724282 /* Cat.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26D6B5712A2BCADD00724282 /* Cat.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +28,10 @@
 		26D6B5612A2BCA7400724282 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		26D6B5642A2BCA7400724282 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		26D6B5662A2BCA7400724282 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		26D6B56E2A2BCADD00724282 /* CeldaGatoViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = CeldaGatoViewCell.xib; path = ../../Pragma/Pragma/CeldaGatoViewCell.xib; sourceTree = "<group>"; };
+		26D6B56F2A2BCADD00724282 /* CeldaGatoViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CeldaGatoViewCell.swift; path = ../../Pragma/Pragma/CeldaGatoViewCell.swift; sourceTree = "<group>"; };
+		26D6B5702A2BCADD00724282 /* CatManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CatManager.swift; path = ../../Pragma/Pragma/CatManager.swift; sourceTree = "<group>"; };
+		26D6B5712A2BCADD00724282 /* Cat.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Cat.swift; path = ../../Pragma/Pragma/Cat.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +71,10 @@
 				26D6B5612A2BCA7400724282 /* Assets.xcassets */,
 				26D6B5632A2BCA7400724282 /* LaunchScreen.storyboard */,
 				26D6B5662A2BCA7400724282 /* Info.plist */,
+				26D6B5712A2BCADD00724282 /* Cat.swift */,
+				26D6B5702A2BCADD00724282 /* CatManager.swift */,
+				26D6B56F2A2BCADD00724282 /* CeldaGatoViewCell.swift */,
+				26D6B56E2A2BCADD00724282 /* CeldaGatoViewCell.xib */,
 			);
 			path = "Pragma-Test";
 			sourceTree = "<group>";
@@ -126,6 +138,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				26D6B5652A2BCA7400724282 /* LaunchScreen.storyboard in Resources */,
+				26D6B5722A2BCADD00724282 /* CeldaGatoViewCell.xib in Resources */,
 				26D6B5622A2BCA7400724282 /* Assets.xcassets in Resources */,
 				26D6B5602A2BCA7300724282 /* Main.storyboard in Resources */,
 			);
@@ -138,7 +151,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				26D6B5742A2BCADD00724282 /* CatManager.swift in Sources */,
 				26D6B55D2A2BCA7300724282 /* ViewController.swift in Sources */,
+				26D6B5752A2BCADD00724282 /* Cat.swift in Sources */,
+				26D6B5732A2BCADD00724282 /* CeldaGatoViewCell.swift in Sources */,
 				26D6B5592A2BCA7300724282 /* AppDelegate.swift in Sources */,
 				26D6B55B2A2BCA7300724282 /* SceneDelegate.swift in Sources */,
 			);
