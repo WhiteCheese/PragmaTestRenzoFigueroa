@@ -7,19 +7,23 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		269335912A333CFB00F1A14A /* Cat.swift in Sources */ = {isa = PBXBuildFile; fileRef = 269335902A333CFB00F1A14A /* Cat.swift */; };
+		269335942A333E3200F1A14A /* GatoManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 269335932A333E3200F1A14A /* GatoManager.swift */; };
+		269335972A33432500F1A14A /* CeldaGatoTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 269335952A33432500F1A14A /* CeldaGatoTableViewCell.swift */; };
+		269335982A33432500F1A14A /* CeldaGatoTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 269335962A33432500F1A14A /* CeldaGatoTableViewCell.xib */; };
 		26D6B5592A2BCA7300724282 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26D6B5582A2BCA7300724282 /* AppDelegate.swift */; };
 		26D6B55B2A2BCA7300724282 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26D6B55A2A2BCA7300724282 /* SceneDelegate.swift */; };
 		26D6B55D2A2BCA7300724282 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26D6B55C2A2BCA7300724282 /* ViewController.swift */; };
 		26D6B5602A2BCA7300724282 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 26D6B55E2A2BCA7300724282 /* Main.storyboard */; };
 		26D6B5622A2BCA7400724282 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 26D6B5612A2BCA7400724282 /* Assets.xcassets */; };
 		26D6B5652A2BCA7400724282 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 26D6B5632A2BCA7400724282 /* LaunchScreen.storyboard */; };
-		26D6B5722A2BCADD00724282 /* CeldaGatoViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 26D6B56E2A2BCADD00724282 /* CeldaGatoViewCell.xib */; };
-		26D6B5732A2BCADD00724282 /* CeldaGatoViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26D6B56F2A2BCADD00724282 /* CeldaGatoViewCell.swift */; };
-		26D6B5742A2BCADD00724282 /* CatManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26D6B5702A2BCADD00724282 /* CatManager.swift */; };
-		26D6B5752A2BCADD00724282 /* Cat.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26D6B5712A2BCADD00724282 /* Cat.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		269335902A333CFB00F1A14A /* Cat.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Cat.swift; sourceTree = "<group>"; };
+		269335932A333E3200F1A14A /* GatoManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GatoManager.swift; sourceTree = "<group>"; };
+		269335952A33432500F1A14A /* CeldaGatoTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CeldaGatoTableViewCell.swift; sourceTree = "<group>"; };
+		269335962A33432500F1A14A /* CeldaGatoTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CeldaGatoTableViewCell.xib; sourceTree = "<group>"; };
 		26D6B5552A2BCA7300724282 /* Pragma-Test.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Pragma-Test.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		26D6B5582A2BCA7300724282 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		26D6B55A2A2BCA7300724282 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -28,10 +32,6 @@
 		26D6B5612A2BCA7400724282 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		26D6B5642A2BCA7400724282 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		26D6B5662A2BCA7400724282 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		26D6B56E2A2BCADD00724282 /* CeldaGatoViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = CeldaGatoViewCell.xib; path = ../../Pragma/Pragma/CeldaGatoViewCell.xib; sourceTree = "<group>"; };
-		26D6B56F2A2BCADD00724282 /* CeldaGatoViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CeldaGatoViewCell.swift; path = ../../Pragma/Pragma/CeldaGatoViewCell.swift; sourceTree = "<group>"; };
-		26D6B5702A2BCADD00724282 /* CatManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CatManager.swift; path = ../../Pragma/Pragma/CatManager.swift; sourceTree = "<group>"; };
-		26D6B5712A2BCADD00724282 /* Cat.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Cat.swift; path = ../../Pragma/Pragma/Cat.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -45,6 +45,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		269335922A333DE500F1A14A /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				269335902A333CFB00F1A14A /* Cat.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
 		26D6B54C2A2BCA7200724282 = {
 			isa = PBXGroup;
 			children = (
@@ -67,14 +75,14 @@
 				26D6B5582A2BCA7300724282 /* AppDelegate.swift */,
 				26D6B55A2A2BCA7300724282 /* SceneDelegate.swift */,
 				26D6B55C2A2BCA7300724282 /* ViewController.swift */,
+				269335922A333DE500F1A14A /* Model */,
 				26D6B55E2A2BCA7300724282 /* Main.storyboard */,
 				26D6B5612A2BCA7400724282 /* Assets.xcassets */,
 				26D6B5632A2BCA7400724282 /* LaunchScreen.storyboard */,
 				26D6B5662A2BCA7400724282 /* Info.plist */,
-				26D6B5712A2BCADD00724282 /* Cat.swift */,
-				26D6B5702A2BCADD00724282 /* CatManager.swift */,
-				26D6B56F2A2BCADD00724282 /* CeldaGatoViewCell.swift */,
-				26D6B56E2A2BCADD00724282 /* CeldaGatoViewCell.xib */,
+				269335932A333E3200F1A14A /* GatoManager.swift */,
+				269335952A33432500F1A14A /* CeldaGatoTableViewCell.swift */,
+				269335962A33432500F1A14A /* CeldaGatoTableViewCell.xib */,
 			);
 			path = "Pragma-Test";
 			sourceTree = "<group>";
@@ -138,8 +146,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				26D6B5652A2BCA7400724282 /* LaunchScreen.storyboard in Resources */,
-				26D6B5722A2BCADD00724282 /* CeldaGatoViewCell.xib in Resources */,
 				26D6B5622A2BCA7400724282 /* Assets.xcassets in Resources */,
+				269335982A33432500F1A14A /* CeldaGatoTableViewCell.xib in Resources */,
 				26D6B5602A2BCA7300724282 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -151,10 +159,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				26D6B5742A2BCADD00724282 /* CatManager.swift in Sources */,
+				269335972A33432500F1A14A /* CeldaGatoTableViewCell.swift in Sources */,
 				26D6B55D2A2BCA7300724282 /* ViewController.swift in Sources */,
-				26D6B5752A2BCADD00724282 /* Cat.swift in Sources */,
-				26D6B5732A2BCADD00724282 /* CeldaGatoViewCell.swift in Sources */,
+				269335912A333CFB00F1A14A /* Cat.swift in Sources */,
+				269335942A333E3200F1A14A /* GatoManager.swift in Sources */,
 				26D6B5592A2BCA7300724282 /* AppDelegate.swift in Sources */,
 				26D6B55B2A2BCA7300724282 /* SceneDelegate.swift in Sources */,
 			);

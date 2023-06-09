@@ -20,7 +20,7 @@ class ViewController: UIViewController {
         super.viewDidLoad()
         
         //Registrar la nueva celda
-        tablaGato.register(UINib(nibName: "CeldaGatoViewCell", bundle: nil), forCellReuseIdentifier: "celda")
+        tablaGato.register(UINib(nibName: "CeldaGatoTableViewCell", bundle: nil), forCellReuseIdentifier: "celda")
         
         gatoManager.delegado = self
         tablaGato.delegate = self
@@ -28,6 +28,7 @@ class ViewController: UIViewController {
         
         //Metodo para buscar la lista de gatos
         gatoManager.getCat()
+    
     }
 }
 
@@ -48,8 +49,12 @@ extension ViewController: UITableViewDelegate, UITableViewDataSource {
     }
     
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
-        let celda = tablaGato.dequeueReusableCell(withIdentifier: "celda", for: indexPath) as! CeldaGatoViewCell
+        let celda = tablaGato.dequeueReusableCell(withIdentifier: "celda", for: indexPath) as! CeldaGatoTableViewCell
         
+        // Configurar el marco negro
+        celda.contentView.layer.borderWidth = 1.0
+        celda.contentView.layer.borderColor = UIColor.black.cgColor
+
         celda.nombreGato.text = "Nombre de raza: \(gatos[indexPath.row].name)"
         celda.paisGato.text = "Pais de origen: \(gatos[indexPath.row].origin)"
         celda.inteligenciaGato.text = "Inteligencia: \(String(gatos[indexPath.row].intelligence))"
@@ -72,7 +77,5 @@ extension ViewController: UITableViewDelegate, UITableViewDataSource {
         
         return celda
     }
-    
-    
 }
 
